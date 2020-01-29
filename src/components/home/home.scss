@@ -1,0 +1,108 @@
+.home{
+  height: 100%;
+  background-image: url("../../assets/cyberpunk.jpg");
+  background-size: 152% ;
+  margin: 0 auto;
+  padding-top: 60%;
+  color: white;
+  animation-name: fadein-home;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+.container-home{
+  width: 50%;
+  padding:10px;
+  margin-left: 2em;
+  background-color: rgba(49, 133, 136, 0.712);
+    animation-name: fadein-container-home;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+
+}
+
+.container-text-home{
+  width: 100%;
+  margin: 0 0.5em;
+  animation-name: fadein-text-home;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+.title-home{
+  margin: 0 0.5em ;
+  color: rgba(255, 255, 255, 0.849);
+}
+
+.text-home{
+  margin: 0.4em 0.5em;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.897);
+  overflow: hidden;
+}
+
+.container-link{
+  padding: 0 10%;
+  animation-name: fadein-container-link;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+}
+
+.link{
+  text-decoration: none;
+  color: rgb(253, 122, 253);
+  margin: 0;
+}
+
+.text-link{
+  margin: 0;
+}
+
+.icon-link{
+  margin-left: 0.4em;
+}
+
+// @keyframes fadein-home {
+//   from {
+//     opacity: 0.5;
+//   }
+
+//   to {
+//     opacity: 1;
+//   }
+// }
+
+@keyframes fadein-container-home {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein-text-home {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadein-container-link {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
